@@ -14,11 +14,11 @@ body {
 }
 
 body {
-    color: black;
+    color: lightgreen;
 }
 
 h1 {
-    color: orange;
+    color: lightgreen;
 }
 
 
@@ -27,6 +27,10 @@ h2 {
   color: orange;
 }
 
+
+h3 {
+  color:orange;
+}
 
 
 body {
