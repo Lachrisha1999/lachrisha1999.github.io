@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/flower.jpeg");
+  background-image: url("file:///run/user/1000/gvfs/gphoto2:host=%255Busb%253A003%252C002%255D/Pictures/Messenger/received_139348846602055.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,13 +42,13 @@ body {
   border: none;
   border-radius: 5px;
   color: black;
-  padding: 10px 30px;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   margin-left:550px;
-  margin-right:550px;
+  margin-right:700px;
   cursor: pointer;
 
 }
@@ -57,4 +57,27 @@ img {
   border: 3px solid black;
   border-radius: 20px;
   box-shadow: 10px 10px #f8be2e;
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+    background-color: orange;
+}
+
+.flex-item {
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+p {
+  color: blue;
+  font-size: 30;
 }
